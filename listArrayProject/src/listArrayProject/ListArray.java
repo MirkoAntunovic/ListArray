@@ -21,18 +21,10 @@ public class ListArray {
 			dataBase data=new dataBase(r);
 			
 			listDb.add(data);
-		}
-		
-
-			
+		}	
 		}catch(Exception e) {
 			
 		}
-		return listDb;
-		
-		
+		return listDb;		
 	}
-	
-	
-
 }

@@ -1,18 +1,14 @@
 package listArrayProject;
 
-
-
 public class dataBase { 
 	
 	   String drzava;
 	
 	 public dataBase(String drzava) {
 		this.drzava=drzava;
-		
-		
+			
 	}
-	 
-	 
+	 	 
 	 String getDrzava() {
 		 return this.drzava=drzava;
 	 }
@@ -26,10 +22,6 @@ public class dataBase {
 	public String toString() {
 		return "dataBase [drzava=" + drzava + "]";
 	}
-
-
-	
-	
 	
 
 }

@@ -12,14 +12,10 @@ static Connection c=null;
 			
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			c=DriverManager.getConnection(url,user,password1);
-			
-			
-			
+	
 		}catch(Exception e) {
 			System.out.println("Error"+e);
 		}
-		
-		return c;
-
+			return c;
 	}
 }
